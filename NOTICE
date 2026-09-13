@@ -1,0 +1,48 @@
+CLOUD JA21 1.5.0 — 24 MB distribution edition
+
+The newly authored JA21 adaptation, compiler entry point, build support,
+documentation and distribution/reassembly additions in this edition are
+provided under the Apache License, Version 2.0, at the user's request.
+See LICENSE for the complete license text.
+
+License scope
+-------------
+The original user-supplied CLOUD_001_v1.4.0.zip application declared
+UNLICENSED. Including an Apache license for this edition's additions does
+not establish a redistribution license for that original application or
+for privately sourced donor material. The assembled application's existing
+UNLICENSED metadata is retained. No blanket Apache licensing claim is made
+for every file in this mixed-license distribution.
+
+Source and attribution
+----------------------
+CLOUD 1.4.0: supplied by the user. Original metadata, checksums and source
+identity are retained in provenance/original.json and associated records.
+
+JA Core/JAUI runtime: adapted from the user's earlier AirGlass JA21 local
+work. Its original source and notices are retained under
+provenance/donor-parts. No AirGlass browser UI or assets are included.
+
+JA21 corpora and JAXD bootstrap compiler: the twenty user-supplied JA21
+language suites carry Apache License 2.0. Their license texts, selected
+records, source locators and hashes are retained under provenance/corpora
+and provenance/corpus-sources.json. tools/jxd_compiler.py is unchanged;
+see provenance/jaxd-compiler.json.
+
+Fluent UI motion tokens: Copyright (c) Microsoft Corporation. MIT License.
+See licenses/FluentUI-MIT.txt and the retained original token source files.
+
+Electron 31.7.7: MIT License. See licenses/Electron-MIT.txt and
+app/node_modules/electron/dist/LICENSE. Chromium and its dependencies
+retain their notices in app/node_modules/electron/dist/LICENSES.chromium.html.
+The supplied Rust/WebAssembly component and dependency records are retained.
+
+Changes in this edition
+-----------------------
+Executable JA21 application rules, interface contracts and design tokens;
+application-owned AppData and selected-channel cleanup with validation;
+compiler command and documentation; package verification; split-volume
+delivery and checked reassembly. The original four tools are retained.
+
+See THIRD-PARTY-NOTICES.md for further provenance and component terms.
+This NOTICE is informational and does not modify any component's license.

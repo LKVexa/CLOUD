@@ -1,0 +1,41 @@
+{
+  "format": "cloud-ja21-parts/1",
+  "partSizeLimitBytes": 24000000,
+  "archive": {
+    "name": "CLOUD-JA21-1.5.0-complete.zip",
+    "bytes": 118520772,
+    "sha256": "13eb7b4090050e2f11a1afb14ed61bad7ccc9f3a571fe7165723c8e839ff27fe"
+  },
+  "parts": [
+    {
+      "index": 1,
+      "name": "CLOUD-JA21-1.5.0-complete.zip.part001",
+      "bytes": 24000000,
+      "sha256": "66f246ed9deb656d612c4f0a38f845418bdbd2e07a62611ecd2e600946aebe39"
+    },
+    {
+      "index": 2,
+      "name": "CLOUD-JA21-1.5.0-complete.zip.part002",
+      "bytes": 24000000,
+      "sha256": "d5c8d1bfd5ae6bc69f6736e059bc2a8eee2f030bb43ef763a5559ae94663c444"
+    },
+    {
+      "index": 3,
+      "name": "CLOUD-JA21-1.5.0-complete.zip.part003",
+      "bytes": 24000000,
+      "sha256": "80bddbdad84c68b3756fe5b0585c38dde4921fca46f658ed13f4e05cf5677ddd"
+    },
+    {
+      "index": 4,
+      "name": "CLOUD-JA21-1.5.0-complete.zip.part004",
+      "bytes": 24000000,
+      "sha256": "e7f7cdf051610ebdb8452c6c27e264d9f13855d77efd5340fd3a642a50952c23"
+    },
+    {
+      "index": 5,
+      "name": "CLOUD-JA21-1.5.0-complete.zip.part005",
+      "bytes": 22520772,
+      "sha256": "38721b0c0a2e1c9c72a8582467e89edce7dcd282f7f634fc7c957672e3c538c2"
+    }
+  ]
+}

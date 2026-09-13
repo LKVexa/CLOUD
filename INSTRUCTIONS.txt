@@ -1,0 +1,52 @@
+CLOUD JA21 1.5.0 - INSTRUCTIONS SHEET
+Windows x64 | Four tools | Application-profile compiler included
+
+1. COLLECT AND JOIN
+   Download 00-START-HERE.zip and all five .part001 through .part005 files.
+   Extract 00-START-HERE.zip. Put all five parts beside JOIN PARTS.cmd in
+   the extracted kit folder. Keep their filenames unchanged.
+   Double-click JOIN PARTS.cmd. It checks each part and creates:
+     CLOUD-JA21-1.5.0-complete.zip
+   Wait for "Joined and verified". Parts cannot be opened individually.
+   Allow at least 1 GB of free disk space for parts, ZIP and extracted app.
+
+2. EXTRACT AND START
+   Right-click the completed ZIP and choose Extract All.
+   Open the extracted CLOUD-JA21-1.5.0 folder; run START CLOUD.cmd.
+   Optional: INSTALL CLOUD.cmd creates the CLOUD JA21 Desktop shortcut.
+   Keep the entire application folder together. Do not run from the ZIP.
+
+3. SET UP THE FOUR TOOLS
+   In Messenger, set your name, channel, shared folder and a secret of
+   at least 12 characters. Participants use the same folder/channel/secret.
+   Messenger sends encrypted messages. Obfuscator protects selected files.
+   Public Bin lists and restores protected files. Synchronization comes
+   from your chosen shared-folder provider. The runtime is bundled.
+
+4. USE THE COMPILER
+   Double-click COMPILE JA21.cmd for help. Command-prompt examples:
+     "COMPILE JA21.cmd" "source\cloud.ja" "my-build\cloud.ir.json"
+     "COMPILE JA21.cmd" "source\workspace.jaui" "my-build\interface.json"
+     "COMPILE JA21.cmd" "source\cloud.jxd" "my-build\design"
+   JA/JAUI compilation uses the bundled runtime. JAXD and full rebuilds
+   require Python 3.10+ as "python"; Python is not included.
+   To apply source edits: REBUILD JA21.cmd, then TEST CLOUD JA21.cmd
+   and VERIFY CLOUD JA21.cmd. See compiler\README.md for the exact profile.
+   This compiles the included JA21 subset, not all twenty corpus languages.
+
+5. DELETEME COVERAGE
+   Read its confirmation carefully. DeleteMe removes this installation,
+   its shortcut, its own local AppData, and the selected channel's shared
+   messages and protected files. Shared deletions may sync to other devices.
+   Other channels, unrelated AppData, downloaded ZIP/parts and separately
+   restored copies are retained. DeleteMe uses your Windows account.
+
+6. LICENSES AND CHECKS
+   LICENSE: Apache 2.0 text. NOTICE explains its scope: new contributions;
+   original CLOUD/private donor code retains its existing license status.
+   Third-party license texts and original notices are included.
+   JOIN PARTS.cmd verifies SHA-256 checksums; these are integrity checks,
+   not a publisher signature. If a part fails, replace that named part.
+   README.md has details. The graphical launch and complete live removal
+   handoff remain unverified in the build environment; see TEST-REPORT.md
+   inside the application's docs folder.
